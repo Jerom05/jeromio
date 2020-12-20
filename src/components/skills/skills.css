@@ -1,0 +1,46 @@
+.skills{
+    width: 100%;
+    color: black;
+    text-align: center;
+    margin-top: 10rem;
+    background-color:#ededed52;
+    padding-bottom: 5rem;
+}
+
+.skills h1{
+    font-family: monospace;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.skills-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item{
+    display: block;
+    margin:1rem; 
+    width: 26%;
+    background-color: #ecf1fa;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+}
+
+.item h3{
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.item-content{
+    margin:1rem;
+}
+
+.item img{
+    width: 80%;
+}

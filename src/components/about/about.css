@@ -1,0 +1,17 @@
+.about-container{
+    margin-top: 1rem;
+    text-align: center;
+}
+.about-container h1{
+
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.about-container h5{
+    text-align: justify;
+    max-width: 50%;
+    margin:2rem auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+}

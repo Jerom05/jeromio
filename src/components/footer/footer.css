@@ -1,0 +1,26 @@
+.footer-container{
+    background-color:#3e4766;
+    color:white;
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.contact{
+    padding: 1rem 0;
+    text-align: start;
+}
+.contact p{
+    font-size: 1rem;
+    padding:0.3rem 1rem;
+}
