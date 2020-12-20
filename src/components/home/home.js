@@ -11,7 +11,7 @@ const Home = ()=>{
             </div>
             <div className="image-container">
                 <div className='profile-pic'>
-                    <img src ={pic} alt='profile picture' />
+                    <img src ={pic} alt='jerom' />
                 </div>
                 
             </div>
