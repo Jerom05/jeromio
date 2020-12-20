@@ -25,7 +25,7 @@ function App() {
 }
 
 export default App;
-{/* <React.Fragment>
+/* <React.Fragment>
       <NavBar />
       <main className="container">
       <Switch>
@@ -37,4 +37,4 @@ export default App;
         <Redirect to='/not-found' />
       </Switch>
     </main>
-</React.Fragment> */}
+</React.Fragment> */
