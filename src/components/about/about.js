@@ -5,7 +5,7 @@ const About = ()=>{
         <div className="about-container">
             <h1>About me</h1> 
             <h5>I am Jeromio Ghagra Calvin, I completed my bsc in computer science and engineering. Currently I am learing and working with javascript nodejs expres js 
-react js. A claver fox jumps over the lazy dogs  A claver fox jumps over the lazy dogs  A claver fox jumps over the lazy dogs  A claver fox jumps over the lazy dogs v A claver fox jumps over the lazy dogs</h5>
+react js.</h5>
         </div>
     )
 }
