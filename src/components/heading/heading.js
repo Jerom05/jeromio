@@ -9,7 +9,7 @@ const Heading =()=>{
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li><a href="#">Home</a></li>
+                <li><a href="home.com">Home</a></li>
           
             </ul>
           </nav>
