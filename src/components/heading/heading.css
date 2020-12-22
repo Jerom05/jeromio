@@ -1,6 +1,5 @@
 header{
     position: fixed;
-    position: relative;
     z-index: 100;
     width: 100%;
     background-color:rgb(255, 255, 255);
@@ -15,17 +14,15 @@ header{
     display: flex;
   }
   
-  nav li{
+  nav .li{
     padding-left: 3.5rem;
-  }
-  
-  nav a {
-    vertical-align: bottom ;
     line-height: 1.6;
     font-weight: 700;
     font-size: 1.3rem;
     color: #69658a;
   }
+  
+
   
   header .mobile{
     display: none;
@@ -59,8 +56,10 @@ header{
       width: 100%;
     }
   
-    header .mobile li {
+    header .mobile .li {
       padding: 0;
+      font-size: 3vw;
+
     }
 
   }

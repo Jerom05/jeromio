@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-router-dom'
 import './heading.css'
 
 const Heading =()=>{
@@ -7,16 +8,16 @@ const Heading =()=>{
         <div className="content">
           <nav className="desktop">
             <ul>
-                <li><a href="ex.com">Home</a></li>
-                <li><a href="ex.com">About</a></li>
-                <li><a href="ex.com">Projects</a></li>
+                <Link className='li' to='/Home'>Home</Link>
+                <Link className='li' to='/About'>About</Link>
+                <Link className='li' to='/Project'>Projects</Link>
             </ul>
           </nav>
           <nav className="mobile">
             <ul>
-                <li><a href="ex.com">Home</a></li>
-                <li><a href="ex.com">About</a></li>
-                <li><a href="ex.com">Projects</a></li>
+            <Link className='li' to='/Home'>Home</Link>
+                <Link className='li' to='/About'>About</Link>
+                <Link className='li' to='/Project'>Projects</Link>
             </ul>
           </nav>
         </div>
