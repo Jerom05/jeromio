@@ -1,14 +1,18 @@
-.skills{
+.skills-container{
     width: 100%;
+    background-color:#ededed52;
+}
+.skills{
+    width: 90%;
     color: black;
     text-align: center;
     margin-top: 10rem;
-    background-color:#ededed52;
     padding-bottom: 5rem;
+    margin: 0 auto;
 }
 
 .skills h1{
-    font-family: monospace;
+    font-family: Roboto;
     font-size: 3.5rem;
     font-weight: 700;
     margin-top: 5rem;
@@ -43,4 +47,31 @@
 
 .item img{
     width: 80%;
+}
+.item:hover {
+    background-color: #3e4766;
+    color: #ecf1fa;
+}
+
+@media only screen and (max-width:650px){
+    .skills{
+        width: 100%;
+        color: black;
+        text-align: center;
+        margin-top: 10rem;
+        padding-bottom: 5rem;
+        margin: 0 auto;
+    }
+    .item{
+        display: block;
+        margin:1rem; 
+        width: 60%;
+        background-color: #ecf1fa;
+        padding: 0.5rem 0;
+        border-radius: 5px;
+    }
+    .item:hover {
+        background-color: #3e4766;
+        color: whitesmoke;
+      }
 }
